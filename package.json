@@ -1,0 +1,15 @@
+{
+  "name": "select-text",
+  "version": "1.0.0",
+  "description": "http://stackoverflow.com/a/987376",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gorangajic/select-text.git"
+  },
+  "author": "Goran Gajic <fero.null@gmail.com> (https://github.com/gorangajic)",
+  "license": "MIT"
+}
