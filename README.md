@@ -10,7 +10,7 @@ Plain Javascript
 ```javascript
 document.onclick = function(e) {
     if (e.target.className === 'click') {
-        selectText('selectme');
+        selectText(e.target);
     }
 };
 ```
@@ -25,7 +25,7 @@ With React
 ```jsx
 <div
     onClick={(e) => {
-        selectText()
+        selectText(e.currentTarget)
     }}
 >
     Select Me!
